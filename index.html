@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIPTA SARANA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo Batako Jaya" class="logo">
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#products">Produk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>SELAMAT DATANG DI CIPTA SARANA</h1>
+            <p>kami menyediakan bahan bangunan berkualitas tinggi</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-image.png" alt="Tentang Kami">
+                </div>
+                <div class="about-text">
+                    <h2>TENTANG KAMI</h2>
+                    <p>CIPTA SARANA adalah perusahaan yang didirikan pada tahun 2001 oleh Bapak Paulus Tjandra. Kami mengkhususkan diri dalam produksi berbagai jenis bahan bangunan, termasuk batako, paving block, dan produk terkait lainnya. Dengan pengalaman lebih dari dua dekade, kami telah menjadi salah satu penyedia terkemuka di industri ini, berkomitmen untuk memberikan produk berkualitas tinggi yang memenuhi kebutuhan pelanggan kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>CONTOH PRODUK</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/paving.png" alt="Paving Block">
+                    <h3>Paving Block</h3>
+                    <p>Deskripsi singkat tentang paving block.</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/batako.png" alt="Batu Bata">
+                    <h3>Batako</h3>
+                    <p>Deskripsi singkat tentang batako.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; CIPTA SARANA. All rights reserved.</p>
+            <div class="contact-info">
+                <h3>Kontak Kami</h3>
+                <p>Alamat: Cipta Sarana Tanah Mas, Jalan Raya Palembang
+                    Sekayu No. 55, RT.23/RW.11, Kelurahan Sukajadi,
+                    Talang Kelapa (Samping Dealer Honda)
+                    TALANG KELAPA, KAB. BANYUASIN, SUMATERA
+                    SELATAN, ID 30961</p>
+                <p>Email: cipta.sarana.paving@gmail.com</p>
+                <p>Telepon: (+62) 821-8436-6289</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
